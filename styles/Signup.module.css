@@ -1,0 +1,130 @@
+.video {
+    width: 100%;
+    max-height: 100%;
+    filter:opacity(80%);
+    filter: blur(0px);
+}
+
+.videoblurry {
+    width: 100%;
+    max-height: 100%;
+    filter:opacity(80%);
+    filter: blur(10px);
+}
+
+.container2{
+    background-image: url("https://levitateculture.s3.eu-west-2.amazonaws.com/photo-1492691527719-9d1e07e534b4.jpeg");
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    color:#f1f1f1;
+    height: 600px;
+    width: 470px;
+    background-color: #121212;
+    border-radius: 10px;
+    top: auto;
+    margin-left: 7.5%;
+    padding: 40px 40px 0px;
+}
+
+.signup_header h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.signup_header h5 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.input_container {
+    padding: 5px 13px;
+    background-color: white;
+    border-radius: 5px;
+    height: 60px;
+    margin-top: 16px;
+
+}
+
+.input_container label {
+    color: #5C5C5C;
+    font-size: 14px;
+    font-weight: 500 !important;
+    font-family: "Poppins";
+}
+
+.input_container input {
+    border: none;
+    top: 0px;
+    margin-top: -10px;
+    color: #000;
+    font-size: 16px;
+    width: 100%;
+}
+
+.input_container input:focus{
+    outline: none;
+    color: #000;
+}
+
+.input_container textarea:focus{
+    outline: none;
+    color: #000;
+}
+
+.signup_button {
+    padding: 13px 20px;
+    background-color: white;
+    width: 100%;
+    max-width: 175px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor:pointer;
+    font-family: "Poppins";
+    font-weight: 750;
+    border: none;
+    font-size: 16px;
+}
+
+
+.info_links {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+
+.info_links h5 {
+    padding-right: 15px;
+}
+
+.main form {
+    margin-top: 20px;
+}
