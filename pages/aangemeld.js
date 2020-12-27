@@ -11,10 +11,7 @@ function Aangemeld() {
                     <h5>Welkom bij de community! We hebben de <a style={{textDecoration: "underline"}}  href="google.com">downloadlink</a> gestuurd via sms naar je telefoonnummer. </h5>
                 </div>
                 <div>
-                    <video style={{marginTop: 20}} controls={true} autoPlay="autoplay" loop="loop" muted className={styles.video} loop   >
-                    <source src="https://levitateculture.s3.eu-west-2.amazonaws.com/zalando.mp4" />
-                    Your browser does not support the video tag.
-                    </video>
+
                 </div>
                 <div>
                     <h4 style={{marginBottom: -20}}>Gratis opdracht plaatsen?</h4>

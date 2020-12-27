@@ -131,7 +131,7 @@ function Signup() {
     return(
         <div className={styles.container}>
             <video autoPlay="autoplay" loop="loop" muted className={styles.video} loop   >
-                <source src="https://levitateculture.s3.eu-west-2.amazonaws.com/zalando.mp4" />
+                <source src="https://vod-progressive.akamaized.net/exp=1609093998~acl=%2A%2F1285735616.mp4%2A~hmac=5ee84591a388baffe0cc9f0a7363a93d81fa98a39d0692abfd91a33587115b9b/vimeo-prod-skyfire-std-us/01/620/13/328100552/1285735616.mp4" />
                 Your browser does not support the video tag.
             </video>
             <div className={styles.main}>
